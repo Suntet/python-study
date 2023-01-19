@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--<link rel="stylesheet" href="style.css">-->
+    <style>
+        link{
+            color: azure;
+            align-items: center;
+            text-align: center;
+        }
+        body {
+            background-color: cornflowerblue;
+            text-align: center;
+            background-image: url(https://pin.it/2cG5iyI);
+        }
+        label{
+            display:inline;
+            color: black;
+        }
+        button {
+            display: block;
+            margin: 50px auto;
+            background-color: brown;
+            
+        }
+        button:active{
+            background-color: black;
+        }
+        
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <button onclick="tombol()">Tekan</button>
+        <label><input type="radio" value="gak mau? teken nooo" name="pilih">sooo, will you be my girlfriend?</label>
+        <a id="link" href="https://wa.me/6285156018059/?text=nggak,%20maafya">nooo?</a>
+        <label><input type="radio" value="mauu? teken yess" name="pilih">sooo, will you be my girlfriend?</label>
+        <a id="link" href="https://wa.me/6285156018059/?text=iyaa,%20mauu">yess?</a>
+        <button>Show</button>
+        <h6>Result</h6>
+    </div>
+    <script>
+        function tombol() {
+            alert('hai diraa');
+            alert('apa kabar nya?');
+            alert('baik baik aja kan?');
+            alert('ya semoga lah ya baik baik aja');
+            alert('jadi ada yang mau di omongin nih');
+            alert('setelas sekian lama saya berfikirr');
+            alert('sayah ahirnya memberanikan membuat ini');
+            alert('yaaa walaupun gk langsung tapi semoga bisa terasa lah yah rasanyaaa');
+            alert('jadii di sinii saya mau bilang');
+            alert('terimakasih udh mau kenal dengan saya');
+            alert('dan jadi teman yang baikk');
+            alert('yaaa walaupun saya banyak salah ceroboh dan lain lain lah yaaaa');
+            alert('dan semenjak kenal diraa');
+            alert('hidup saya jadi berubah');
+            alert('yang asalnya datarrrrrr bangett');
+            alert('jadi lebih berwarnaaa');
+            alert('banyak banget hal hal yang membuat saya senang dari dira');
+            alert('mulai radomm nya diraa');
+            alert('personality nya diraa');
+            alert('yaa walaupun kita belum kenal lebih dalam');
+            alert('but i hope we can fill each others');
+            alert('ya mungkin dari sini dira dah tau');
+            alert('kelanjutan nya ke manaaaa');
+            alert('soooo');
+            alert('')
+        }
+
+        
+        let btnShow = document.querySelector('button');
+        let result = document.querySelector('h6');
+        
+        btnShow.addEventListener('click', () => {
+            let radio = document.querySelector('input[type="radio"]:checked');
+            result.innerText = radio.value;    
+        });</script>
+<!-- <div>
+    <p>''</p>
+</div>
+<div>
+    <button onclick="btn1()" id="btn1" value="asu">1</button>
+    <button onclick="btn2()" id="btn1" value="asu">2</button>
+    <p id="1">soo</p>
+</div>
+function btn1(){
+    document.getElementById('1').innerHTML= 'jadi gini dine';
+    document.getElementById('linkyt').innerHTML ='';
+}
+function btn2(){
+    document.getElementById('1').innerHTML= 'jadi gini dine';
+    document.getElementById('linkyt').innerHTML ='segggs';
+} -->
+</body>
+</html>
+padding: 2px 6px 2px 6px;

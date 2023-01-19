@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+    <html>
+        <head>
+            <script>
+                let btnShow = document.querySelector('button');
+                let result = document.querySelector('h1');
+
+                btnShow.addEventListener('click', () => {
+                    let checkbox = document.querySelector('input[type="checkbox"]:checked');
+                    result.innerText = checkbox.value;    
+                });
+                alert("Hai diraa, apa kabar?");
+            </script>
+            <title>Dear Diraaa</title>
+            <style>
+                .body {
+                    text-align: center;
+                }
+
+                .div{
+                    display: inline-block;
+                }
+
+                .button{
+                    display: block;
+                    margin: 20px auto;
+                }
+            </style>
+            </head>
+                <main id="main1">
+                    <div>
+                        <h3>diharapkan isi denga iya,sehat atau tidak sehat agar menghindari error </h3>
+                        <label><input type="checkbox" id="check1" value="alhamdulilah kalo gitu">sehat</label>
+                        <label><input type="checkbox" id="check2" value="semoga jadi sehat lah ya">kurang sehat</label>
+                        <button>Show</button>
+                        <h1>result</h1>
+                    </div>
+                    <script>
+                        let btnShow = document.querySelector('button');
+                        let result = document.querySelector('h1');
+                
+                        btnShow.addEventListener('click', () => {
+                            let checkbox = document.querySelector('input[type="checkbox"]:checked');
+                            result.innerText = checkbox.textContent;    
+                        });
+                    </script>
+                </main>
+    </html>
